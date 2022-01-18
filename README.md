@@ -69,13 +69,14 @@ Please go ahead and play around  :)
           
   ## Screenshots of iOS
   
-   <img src="https://user-images.githubusercontent.com/11419839/149998571-b750d6ca-65c4-4976-a7dd-2760771583f5.png" width="400" height="700">
-      <img src="https://user-images.githubusercontent.com/11419839/149998580-8de79fe3-6378-4794-847b-09b1e85afdf6.png" width="400" height="700">
-         <img src="https://user-images.githubusercontent.com/11419839/149998589-da60a03e-7346-4ecc-92da-2d064c1e00db.png" width="400" height="700">
+   <img src="https://user-images.githubusercontent.com/11419839/149998571-b750d6ca-65c4-4976-a7dd-2760771583f5.png" width="300" height="550">
+      <img src="https://user-images.githubusercontent.com/11419839/149998580-8de79fe3-6378-4794-847b-09b1e85afdf6.png" width="300" height="550">
+         <img src="https://user-images.githubusercontent.com/11419839/149998589-da60a03e-7346-4ecc-92da-2d064c1e00db.png" width="300" height="550">
             
    ## Screenshots of Android attached
    
-   <img src="https://user-images.githubusercontent.com/11419839/149998737-dc609e1b-f0c5-46a9-81df-5ed4ec98a06b.png" width="400" height="700">
-      <img src="https://user-images.githubusercontent.com/11419839/149998744-37def309-e85c-4848-ad94-9f6061f19560.png" width="400" height="700">
+   <img src="https://user-images.githubusercontent.com/11419839/149998737-dc609e1b-f0c5-46a9-81df-5ed4ec98a06b.png" width="300" height="600">
+      <img src="https://user-images.githubusercontent.com/11419839/149998744-37def309-e85c-4848-ad94-9f6061f19560.png" width="300" height="600">
+          
           
 ## Happy coding .....
