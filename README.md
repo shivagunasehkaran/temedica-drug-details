@@ -59,10 +59,23 @@ Please go ahead and play around  :)
 ## Thinking & Decisions :
 
   - Since, No pagination given in Local json file (API). I can add pagination after every 20 records in future.
-  - Could use **UseMemo** for child render item but based on API, data's are changing every time you refresh. Understood rerender will happen everytime, so better not to use           **UseMemo** (According to the coding standard, If the component isn’t heavy and usually renders with different props, most likely not to use memoizations, 
+  - Could use **UseMemo** for child render item but based on API, data's are changing every time you refresh. 
+    Understood rerender will happen everytime, so better not to use **UseMemo** (According to the coding standard, If the component isn’t heavy and usually renders     with different props, most likely not to use memoizations, 
     Using the following rule of thumb: don’t use memoization if you can’t quantify the performance gains.)
   - No error alerts added, because handled all the NULL check in all child components.
   - Created ColourPalette for maintaining colors
   
-
+## outputs :
+          
+  ## Screenshots of iOS
+  
+   <img src="https://user-images.githubusercontent.com/11419839/149998571-b750d6ca-65c4-4976-a7dd-2760771583f5.png" width="400" height="700">
+      <img src="https://user-images.githubusercontent.com/11419839/149998580-8de79fe3-6378-4794-847b-09b1e85afdf6.png" width="400" height="700">
+         <img src="https://user-images.githubusercontent.com/11419839/149998589-da60a03e-7346-4ecc-92da-2d064c1e00db.png" width="400" height="700">
+            
+   ## Screenshots of Android attached
+   
+   <img src="https://user-images.githubusercontent.com/11419839/149998737-dc609e1b-f0c5-46a9-81df-5ed4ec98a06b.png" width="400" height="700">
+      <img src="https://user-images.githubusercontent.com/11419839/149998744-37def309-e85c-4848-ad94-9f6061f19560.png" width="400" height="700">
+          
 ## Happy coding .....
