@@ -1,6 +1,15 @@
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
+  logoView: {
+    alignItems: 'center'
+  },
+  logo: {
+    height: 50, 
+    width: 50, 
+    resizeMode : 'stretch', 
+    margin: 5 
+  },
   stateText: {
     marginLeft: 20,
   },

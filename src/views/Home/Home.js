@@ -5,11 +5,13 @@ import {
   SafeAreaView,
   Text,
   View,
+  Image
 } from 'react-native';
 import DrugDetails from '../../components/DrugDetails';
 import InputText from '../../components/InputText';
 import drugsData from '../../dbstore/drugs.json';
 import { styles } from './Home.style';
+import { images } from '../../assets/styles/images';
 
 const Home = () => {
   const [keyword, setKeyword] = useState('');
@@ -83,6 +85,9 @@ const Home = () => {
     
   return (
       <SafeAreaView>
+        <View style={styles.logoView}>
+          <Image style={styles.logo} source={images.logo} />
+        </View>
         <InputText
           value={keyword}
           onChangeHandler={val => searchFilterFunction(val)}
