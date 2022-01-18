@@ -52,17 +52,5 @@ describe('Home screen', () => {
     const wrapper = shallow(<Home item={item} />);
     expect(wrapper.find('FlatList').length).toEqual(0);
   });
-
-  it('navigate: renders correctly with default', async () => {
-    const fakeNavigation = {
-      push: jest.fn(),
-    };
-    const wrapper = mount(<Home navigation={fakeNavigation} />);
-    var home = wrapper.find('Home');
-    const node = home
-      .findWhere(node => node.prop('testID') === 'itemAction')
-      .at(0);
-    node.simulate('click');
-  });
 });
 
