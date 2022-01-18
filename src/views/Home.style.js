@@ -1,9 +1,24 @@
 import {StyleSheet} from 'react-native';
-import { ColourPalette } from '../assets/styles/ColourPalette';
 
 export const styles = StyleSheet.create({
-  container: {
+  stateText: {
+    marginLeft: 20,
+  },
+  flatListView: {
+    marginVertical: 10,
+    marginHorizontal: 14,
+    backgroundColor: 'green'
+  },
+  titleText: {
+    marginHorizontal: 20,
+  },
+  renderItem: {
     flex: 1,
-    backgroundColor: ColourPalette.lightGrey
-  }
+    height: 100,
+    margin: 5,
+  },
+  loader: {
+    marginTop: 10,
+    alignItems: 'center',
+  },
 });
