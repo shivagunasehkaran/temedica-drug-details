@@ -25,7 +25,7 @@ const InputText = props => {
           returnKeyType={'search'}
         />
         {isClearButtonShown && (
-          <TouchableOpacity style={styles.clearIcon} onPress={() => onClear()}>
+          <TouchableOpacity style={styles.clearIcon} onPressIn={() => onClear()}>
             <Image source={images.clear} />
           </TouchableOpacity>
         )}
