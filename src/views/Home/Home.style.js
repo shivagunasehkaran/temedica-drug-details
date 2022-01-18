@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
   flatListView: {
     marginVertical: 10,
     marginHorizontal: 14,
-    backgroundColor: 'green'
   },
   titleText: {
     marginHorizontal: 20,
