@@ -7,11 +7,16 @@
  */
 
 import React from 'react';
-import Home from './views';
+import {
+  SafeAreaView,
+} from 'react-native';
+import Home from './views/Home/Home';
 
 const App = () => {
   return (
-    <Home/>
+    <SafeAreaView>
+      <Home/>
+    </SafeAreaView>
   );
 };
 
